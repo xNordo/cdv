@@ -31,7 +31,7 @@ int check_dict(char *first, char *second){
 
     i = get_shorter(first, second);
 
-    for(int j = 0; j < 0; j++){
+    for(int j = 0; j < i; j++){
         if(first[j] < second[j]){
             return -1;
         } else if(first[j] > second[j]){
